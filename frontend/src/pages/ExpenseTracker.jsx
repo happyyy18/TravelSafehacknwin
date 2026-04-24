@@ -21,7 +21,7 @@ amount:Number(amount)
 
 try{
 
-const res = await fetch("http://localhost:5000/api/expenses/add",{
+const res = await fetch("/api/expenses/add",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"

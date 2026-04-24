@@ -24,7 +24,7 @@ setTyping(true);
 try{
 
 const response = await fetch(
-"http://localhost:5000/api/ai/chat",
+"/api/ai/chat",
 {
 method:"POST",
 headers:{

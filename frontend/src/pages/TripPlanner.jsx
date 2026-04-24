@@ -22,7 +22,7 @@ budget
 
 try{
 
-await fetch("http://localhost:5000/api/trips/add",{
+await fetch("/api/trips/add",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"

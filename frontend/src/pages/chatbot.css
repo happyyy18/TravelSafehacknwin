@@ -1,0 +1,79 @@
+.chatPage{
+min-height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+background-size:cover;
+padding:50px;
+color:white;
+text-align:center;
+}
+
+.chatBox{
+max-width:700px;
+margin:auto;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:15px;
+height:400px;
+overflow-y:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-top:20px;
+}
+
+.userMsg{
+align-self:flex-end;
+background:#2A7FFF;
+padding:10px 15px;
+border-radius:10px;
+color:white;
+max-width:70%;
+}
+
+.botMsg{
+align-self:flex-start;
+background:white;
+padding:10px 15px;
+border-radius:10px;
+color:#333;
+max-width:70%;
+}
+
+.chatInput{
+max-width:700px;
+margin:auto;
+display:flex;
+gap:10px;
+margin-top:15px;
+}
+
+.chatInput input{
+flex:1;
+padding:12px;
+border-radius:10px;
+border:none;
+}
+
+.chatInput button{
+padding:12px 20px;
+background:#ff6b00;
+border:none;
+border-radius:10px;
+color:white;
+cursor:pointer;
+}
+
+.typing{
+font-style:italic;
+opacity:0.7;
+animation:blink 1s infinite;
+}
+
+@keyframes blink{
+0%{opacity:0.3;}
+50%{opacity:1;}
+100%{opacity:0.3;}
+}

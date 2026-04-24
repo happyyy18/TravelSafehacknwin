@@ -1,0 +1,86 @@
+/* PAGE */
+
+.tripPage{
+min-height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+background-size:cover;
+background-position:center;
+padding:60px;
+}
+
+/* GLASS FORM */
+
+.glassContainer{
+max-width:600px;
+margin:auto;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(12px);
+padding:40px;
+border-radius:20px;
+color:white;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* FORM */
+
+.tripForm{
+margin-top:25px;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.tripForm input{
+padding:14px;
+border-radius:10px;
+border:none;
+outline:none;
+font-size:15px;
+}
+
+.tripForm button{
+padding:14px;
+background:linear-gradient(45deg,#ff7a18,#ff4d00);
+border:none;
+border-radius:10px;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.tripForm button:hover{
+transform:scale(1.05);
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* TRIP SUMMARY */
+
+.tripSummary{
+margin-top:50px;
+text-align:center;
+color:white;
+}
+
+.tripCard{
+margin:auto;
+max-width:400px;
+background:rgba(255,255,255,0.9);
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.35);
+color:#333;
+}
+
+.tripCard h3{
+margin-top:10px;
+color:#2A7FFF;
+}
+
+.tripCard p{
+margin-bottom:10px;
+font-weight:500;
+}

@@ -1,0 +1,136 @@
+.safetyContainer{
+padding:40px;
+background:#f5f7fb;
+min-height:100vh;
+font-family:Poppins;
+}
+
+.safetyContainer h1{
+margin-bottom:25px;
+}
+
+/* Emergency grid */
+
+.emergencyGrid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+gap:20px;
+margin-bottom:30px;
+}
+
+.emergencyCard{
+background:white;
+padding:20px;
+border-radius:12px;
+text-align:center;
+text-decoration:none;
+color:black;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.emergencyCard:hover{
+transform:scale(1.05);
+}
+
+.police{border-left:6px solid #2A7FFF;}
+.ambulance{border-left:6px solid #e63946;}
+.fire{border-left:6px solid #ff6b00;}
+.women{border-left:6px solid #ff2fa0;}
+
+/* SOS */
+
+.sosBox{
+margin-top:20px;
+text-align:center;
+}
+
+.sosButton{
+background:red;
+color:white;
+padding:18px 40px;
+font-size:20px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+}
+
+.sosButton:hover{
+background:#c40000;
+}
+
+/* Share location */
+
+.shareBox{
+margin-top:20px;
+text-align:center;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.shareButton{
+margin-top:10px;
+background:#25D366;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* Map */
+
+.mapContainer{
+margin-top:20px;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Contact form */
+
+.contactForm{
+margin-top:40px;
+background:white;
+padding:20px;
+border-radius:12px;
+max-width:400px;
+display:flex;
+flex-direction:column;
+gap:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contactForm input{
+padding:10px;
+border-radius:8px;
+border:1px solid #ddd;
+}
+
+.contactForm button{
+background:#2A7FFF;
+color:white;
+padding:10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* Contact list */
+
+.contactList{
+margin-top:20px;
+display:grid;
+gap:10px;
+}
+
+.contactCard{
+background:white;
+padding:12px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
